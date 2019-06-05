@@ -298,7 +298,7 @@ bool TestNode(const CService &cip, int &ban, int &clientV, std::string &clientSV
 
 /*
 int main(void) {
-  CService ip("vsyncseed.vsync.pw", 65010, true);
+  CService ip("vsyncseed.vsync.io", 65010, true);
   vector<CAddress> vAddr;
   vAddr.clear();
   int ban = 0;
