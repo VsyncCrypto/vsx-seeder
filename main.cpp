@@ -357,14 +357,14 @@ extern "C" void* ThreadStats(void*) {
 }
 
 static const string mainnet_seeds[] = {
-  "node1.vsync.pw:65010", 
-  "node2.vsync.pw:65010", 
-  "node3.vsync.pw:65010", 
-  "node4.vsync.pw:65010", 
-  "node5.vsync.pw:65010", 
-  "node6.vsync.pw:65010", 
-  "node7.vsync.pw:65010", 
-  "node8.vsync.pw:65010", 
+  "node1.vsync.io:65010", 
+  "node2.vsync.io:65010", 
+  "node3.vsync.io:65010", 
+  "node4.vsync.io:65010", 
+  "node5.vsync.io:65010", 
+  "node6.vsync.io:65010", 
+  "node7.vsync.io:65010", 
+  "node8.vsync.io:65010", 
   ""
 };
 static const string testnet_seeds[] = {
