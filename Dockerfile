@@ -1,7 +1,7 @@
 FROM alpine:3.3
-MAINTAINER Monetaryunit <support@monetaryunit.org>
+MAINTAINER VSync <support@vsync.io>
 
-RUN mkdir -p /app/bin /app/src /var/lib/monetaryunit-seeder
+RUN mkdir -p /app/bin /app/src /var/lib/vsync-seeder
 
 WORKDIR /app/src
 
@@ -26,8 +26,8 @@ RUN apk --no-cache add    \
       libgcc              \
       libstdc++
 
-WORKDIR /var/lib/monetaryunit-seeder
-VOLUME /var/lib/monetaryunit-seeder
+WORKDIR /var/lib/vsync-seeder
+VOLUME /var/lib/vsync-seeder
 
 EXPOSE 53/udp
 
